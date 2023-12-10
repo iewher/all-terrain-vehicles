@@ -1,0 +1,25 @@
+.header {
+  height: 119px;
+  background-color: #32322f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+
+  &-links {
+    display: flex;
+    gap: 35px;
+    a {
+      color: white;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &-number {
+    color: white;
+  }
+}
