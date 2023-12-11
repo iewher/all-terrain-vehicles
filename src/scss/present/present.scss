@@ -1,0 +1,31 @@
+.present {
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 45px;
+  background-image: url("../../svg/present.svg");
+  background-size: 100%;
+  color: white;
+
+  &-text {
+    margin-left: 350px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      text-decoration: underline;
+    }
+
+    button {
+      height: 55px;
+      width: 213px;
+    }
+
+    .present-under-text {
+      display: flex;
+      gap: 33px;
+    }
+  }
+}

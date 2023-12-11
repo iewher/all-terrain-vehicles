@@ -1,3 +1,19 @@
+# Тестовое задание в компанию "XenLP"
+
+Задание написано на JavaScript с использованием React
+
+Стили написаны на SCSS
+
+## Установка
+
+Перед запуском проекта обязательно прописать в терминал:
+
+### `npm install`
+
+либо
+
+### `npm install --force`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
