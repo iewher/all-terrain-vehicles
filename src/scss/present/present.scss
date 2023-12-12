@@ -7,6 +7,7 @@
   background-image: url("../../svg/present.svg");
   background-size: 100%;
   color: white;
+  padding: 40px;
 
   &-text {
     margin-left: 350px;
@@ -16,16 +17,24 @@
 
     h1 {
       text-decoration: underline;
+      font-size: 60px;
     }
 
     button {
       height: 55px;
       width: 213px;
+      border: none;
     }
 
     .present-under-text {
       display: flex;
+      align-items: center;
       gap: 33px;
+
+      p {
+        font-size: 30px;
+        max-width: 435px;
+      }
     }
   }
 }

@@ -1,0 +1,60 @@
+.emoji {
+  margin-top: 200px;
+  padding: 40px;
+
+  &-title {
+    margin-left: 350px;
+    margin-bottom: 70px;
+
+    p {
+      font-size: 35px;
+      line-height: 42px;
+      width: 588px;
+    }
+  }
+
+  &-main {
+    display: flex;
+    gap: 20px;
+
+    &__image {
+      img {
+        width: 910px;
+        height: 654px;
+      }
+    }
+
+    &__card {
+      &-images {
+        display: flex;
+        gap: 20px;
+        width: 290px;
+        height: 160px;
+      }
+
+      &-text {
+        height: 494px;
+        width: 910px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        li {
+          font-size: 18px;
+          line-height: 20px;
+          margin-left: 310px;
+        }
+
+        button {
+          height: 55px;
+          width: 391px;
+          margin-left: 310px;
+          margin-top: 60px;
+          background-color: #32322F;
+          color: white;
+          border: none;
+        }
+      }
+    }
+  }
+}
