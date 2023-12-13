@@ -1,0 +1,59 @@
+.cards {
+  padding: 40px;
+
+  &-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  h1 {
+    margin-left: 310px;
+    margin-bottom: 70px;
+    max-width: 602px;
+    font-size: 35px;
+  }
+
+  .card {
+    display: flex;
+    gap: 20px;
+
+    image {
+      height: 400px;
+      width: 600px;
+    }
+
+    &-text {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .title {
+        font-size: 25px;
+        text-decoration: underline;
+      }
+
+      .text {
+        max-width: 277px;
+        font-size: 18px;
+        line-height: 18px;
+      }
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 29px;
+        width: 129px;
+        background-color: white;
+        border: none;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

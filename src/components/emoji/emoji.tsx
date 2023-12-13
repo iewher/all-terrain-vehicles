@@ -1,5 +1,6 @@
 import React from "react";
 import "../../scss/emoji/emoji.scss";
+import whitearrow from "../../svg/white-arrow.svg";
 import emoji1 from "../../svg/emoji/emoji1.svg";
 import emoji2 from "../../svg/emoji/emoji2.svg";
 import emoji3 from "../../svg/emoji/emoji3.svg";
@@ -31,7 +32,10 @@ const Emoji = () => {
             <li>Крутящий момент 491 Нм</li>
             <li>Гидрообъемное рулевое управление</li>
             <li>Пневмогидравлическая тормозная система</li>
-            <button>Подробнее о характеристиках</button>
+            <button>
+              <p>Подробнее о характеристиках</p>
+              <img src={whitearrow} alt="whitearrow" />
+            </button>
           </div>
         </div>
       </div>

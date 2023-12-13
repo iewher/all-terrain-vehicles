@@ -56,6 +56,14 @@
           cursor: pointer;
           transition: 0.2s;
           border: 1px solid #32322f;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 20px;
+
+          p {
+            font-size: 18px;
+          }
 
           &:hover {
             background-color: white;
