@@ -50,9 +50,18 @@
           width: 391px;
           margin-left: 310px;
           margin-top: 60px;
-          background-color: #32322F;
+          background-color: #32322f;
           color: white;
           border: none;
+          cursor: pointer;
+          transition: 0.2s;
+          border: 1px solid #32322f;
+
+          &:hover {
+            background-color: white;
+            color: black;
+            border: 1px solid #32322f;
+          }
         }
       }
     }

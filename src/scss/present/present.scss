@@ -24,6 +24,15 @@
       height: 55px;
       width: 213px;
       border: none;
+      cursor: pointer;
+      border: 1px solid white;
+      transition: 0.2s;
+
+      &:hover {
+        background-color: #32322f;
+        color: white;
+        border: 1px solid #32322f;
+      }
     }
 
     .present-under-text {
